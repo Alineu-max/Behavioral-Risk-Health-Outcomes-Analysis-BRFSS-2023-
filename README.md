@@ -30,17 +30,18 @@ This project helps:
 
 ---
 
+
+
 ## Project Structure
 
-├── data/ # Raw dataset
-├── notebook/ # Jupyter notebooks (analysis & visuals)
-├── plots/ # Saved figures
-├── README.md # Project documentation
-└── requirements.txt # Python dependencies
+| Folder/File        | Description                          |
+|--------------------|--------------------------------------|
+| `data/`            | Raw dataset(s)                       |
+| `notebook/`        | Jupyter notebooks                    |
+| `plots/`           | Saved visualizations                 |
+| `README.md`        | Project documentation                |
+| `requirements.txt`| Python dependencies                  |
 
-
-
----
 
 ## Key Questions Explored
 
