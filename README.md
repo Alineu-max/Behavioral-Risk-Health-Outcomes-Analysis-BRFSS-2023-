@@ -65,6 +65,7 @@ Compares risk categories using clear, readable proportions.
 Demonstrates how missing data can dominate interpretation.
 
 Each visualization includes:
+
 ✔ Design justification  
 ✔ Ethical considerations  
 ✔ Interpretation notes  
@@ -133,22 +134,29 @@ jupyter notebook
 
 ##  Why This Project Is Different
 
-Most beginner projects focus on flashy charts.
-
+Most beginner projects focus on flashy charts.  
 This one focuses on:
-✔ Ethical thinking
-✔ Design responsibility
-✔ Real-world messy data
-✔ Communication
-✔ Human interpretation
+
+✔ Ethical thinking  
+✔ Design responsibility  
+✔ Real-world messy data  
+✔ Clear communication  
+✔ Human-centered interpretation  
 
 This makes it closer to how data is used in real organizations.
+
+---
+
 
 ## About Me
 
 I am a data analytics student learning how to move beyond simple charts into ethical, intentional, and meaningful data storytelling.
 
 This project reflects not just what I analyzed but how I think.
+
+🔗 LinkedIn: www.linkedin.com/in/aline-umutoniwase
+
+
 
 ## Data Source
 
