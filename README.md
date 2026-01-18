@@ -163,4 +163,5 @@ This project reflects not just what I analyzed but how I think.
 
 - CDC Behavioral Risk Factor Surveillance System (BRFSS) 2023
 - Self-reported survey data collected across the United States.
+- The raw CSV is compressed (.zip) due to GitHub’s file size limits.
 
