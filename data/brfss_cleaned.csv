@@ -1,0 +1,466 @@
+_state,_drnkdrv,_pneumo3,pneumo_label,drnkdrv_label
+1,,2.0,No,Missing
+1,,1.0,Yes,Missing
+1,2.0,1.0,Yes,Category 2
+1,2.0,,Missing,Category 2
+1,,,Missing,Missing
+1,2.0,2.0,No,Category 2
+1,1.0,1.0,Yes,Category 1
+1,1.0,,Missing,Category 1
+1,1.0,2.0,No,Category 1
+2,,,Missing,Missing
+2,2.0,2.0,No,Category 2
+2,2.0,1.0,Yes,Category 2
+2,,1.0,Yes,Missing
+2,2.0,,Missing,Category 2
+2,,2.0,No,Missing
+2,1.0,1.0,Yes,Category 1
+2,1.0,2.0,No,Category 1
+2,1.0,,Missing,Category 1
+4,2.0,1.0,Yes,Category 2
+4,,,Missing,Missing
+4,,2.0,No,Missing
+4,,1.0,Yes,Missing
+4,2.0,2.0,No,Category 2
+4,2.0,,Missing,Category 2
+4,1.0,1.0,Yes,Category 1
+4,1.0,2.0,No,Category 1
+4,1.0,,Missing,Category 1
+5,,1.0,Yes,Missing
+5,,2.0,No,Missing
+5,2.0,,Missing,Category 2
+5,2.0,1.0,Yes,Category 2
+5,,,Missing,Missing
+5,2.0,2.0,No,Category 2
+5,1.0,1.0,Yes,Category 1
+5,1.0,2.0,No,Category 1
+5,1.0,,Missing,Category 1
+6,,1.0,Yes,Missing
+6,2.0,1.0,Yes,Category 2
+6,,,Missing,Missing
+6,2.0,2.0,No,Category 2
+6,,2.0,No,Missing
+6,2.0,,Missing,Category 2
+6,1.0,1.0,Yes,Category 1
+6,1.0,,Missing,Category 1
+6,1.0,2.0,No,Category 1
+8,,2.0,No,Missing
+8,,1.0,Yes,Missing
+8,,,Missing,Missing
+8,2.0,1.0,Yes,Category 2
+8,2.0,,Missing,Category 2
+8,1.0,,Missing,Category 1
+8,2.0,2.0,No,Category 2
+8,1.0,1.0,Yes,Category 1
+8,1.0,2.0,No,Category 1
+9,,,Missing,Missing
+9,2.0,,Missing,Category 2
+9,2.0,2.0,No,Category 2
+9,2.0,1.0,Yes,Category 2
+9,,1.0,Yes,Missing
+9,,2.0,No,Missing
+9,1.0,2.0,No,Category 1
+9,1.0,1.0,Yes,Category 1
+9,1.0,,Missing,Category 1
+10,,,Missing,Missing
+10,2.0,1.0,Yes,Category 2
+10,,1.0,Yes,Missing
+10,,2.0,No,Missing
+10,1.0,2.0,No,Category 1
+10,2.0,2.0,No,Category 2
+10,2.0,,Missing,Category 2
+10,1.0,1.0,Yes,Category 1
+10,1.0,,Missing,Category 1
+11,,2.0,No,Missing
+11,2.0,1.0,Yes,Category 2
+11,2.0,,Missing,Category 2
+11,,,Missing,Missing
+11,,1.0,Yes,Missing
+11,2.0,2.0,No,Category 2
+11,1.0,,Missing,Category 1
+11,1.0,1.0,Yes,Category 1
+11,1.0,2.0,No,Category 1
+12,,2.0,No,Missing
+12,2.0,1.0,Yes,Category 2
+12,,,Missing,Missing
+12,,1.0,Yes,Missing
+12,2.0,2.0,No,Category 2
+12,2.0,,Missing,Category 2
+12,1.0,1.0,Yes,Category 1
+12,1.0,,Missing,Category 1
+12,1.0,2.0,No,Category 1
+13,,1.0,Yes,Missing
+13,,,Missing,Missing
+13,,2.0,No,Missing
+13,2.0,,Missing,Category 2
+13,2.0,1.0,Yes,Category 2
+13,2.0,2.0,No,Category 2
+13,1.0,,Missing,Category 1
+13,1.0,1.0,Yes,Category 1
+13,1.0,2.0,No,Category 1
+15,2.0,1.0,Yes,Category 2
+15,2.0,2.0,No,Category 2
+15,,,Missing,Missing
+15,2.0,,Missing,Category 2
+15,,2.0,No,Missing
+15,,1.0,Yes,Missing
+15,1.0,,Missing,Category 1
+15,1.0,1.0,Yes,Category 1
+15,1.0,2.0,No,Category 1
+16,2.0,2.0,No,Category 2
+16,,1.0,Yes,Missing
+16,2.0,1.0,Yes,Category 2
+16,2.0,,Missing,Category 2
+16,,2.0,No,Missing
+16,1.0,,Missing,Category 1
+16,,,Missing,Missing
+16,1.0,1.0,Yes,Category 1
+16,1.0,2.0,No,Category 1
+17,2.0,1.0,Yes,Category 2
+17,,2.0,No,Missing
+17,2.0,,Missing,Category 2
+17,,1.0,Yes,Missing
+17,,,Missing,Missing
+17,2.0,2.0,No,Category 2
+17,1.0,1.0,Yes,Category 1
+17,1.0,,Missing,Category 1
+17,1.0,2.0,No,Category 1
+18,,2.0,No,Missing
+18,2.0,1.0,Yes,Category 2
+18,,,Missing,Missing
+18,,1.0,Yes,Missing
+18,2.0,,Missing,Category 2
+18,2.0,2.0,No,Category 2
+18,1.0,1.0,Yes,Category 1
+18,1.0,,Missing,Category 1
+18,1.0,2.0,No,Category 1
+19,,1.0,Yes,Missing
+19,2.0,2.0,No,Category 2
+19,,2.0,No,Missing
+19,2.0,,Missing,Category 2
+19,2.0,1.0,Yes,Category 2
+19,,,Missing,Missing
+19,1.0,,Missing,Category 1
+19,1.0,2.0,No,Category 1
+19,1.0,1.0,Yes,Category 1
+20,,1.0,Yes,Missing
+20,2.0,1.0,Yes,Category 2
+20,2.0,2.0,No,Category 2
+20,,,Missing,Missing
+20,,2.0,No,Missing
+20,2.0,,Missing,Category 2
+20,1.0,1.0,Yes,Category 1
+20,1.0,,Missing,Category 1
+20,1.0,2.0,No,Category 1
+22,,2.0,No,Missing
+22,2.0,2.0,No,Category 2
+22,,,Missing,Missing
+22,,1.0,Yes,Missing
+22,2.0,1.0,Yes,Category 2
+22,2.0,,Missing,Category 2
+22,1.0,,Missing,Category 1
+22,1.0,2.0,No,Category 1
+22,1.0,1.0,Yes,Category 1
+23,,,Missing,Missing
+23,,2.0,No,Missing
+23,,1.0,Yes,Missing
+23,2.0,,Missing,Category 2
+23,2.0,1.0,Yes,Category 2
+23,2.0,2.0,No,Category 2
+23,1.0,,Missing,Category 1
+23,1.0,1.0,Yes,Category 1
+23,1.0,2.0,No,Category 1
+24,2.0,1.0,Yes,Category 2
+24,,,Missing,Missing
+24,,1.0,Yes,Missing
+24,2.0,,Missing,Category 2
+24,2.0,2.0,No,Category 2
+24,,2.0,No,Missing
+24,1.0,1.0,Yes,Category 1
+24,1.0,2.0,No,Category 1
+24,1.0,,Missing,Category 1
+25,,1.0,Yes,Missing
+25,2.0,1.0,Yes,Category 2
+25,,,Missing,Missing
+25,2.0,2.0,No,Category 2
+25,,2.0,No,Missing
+25,2.0,,Missing,Category 2
+25,1.0,2.0,No,Category 1
+25,1.0,,Missing,Category 1
+25,1.0,1.0,Yes,Category 1
+26,,,Missing,Missing
+26,2.0,1.0,Yes,Category 2
+26,,2.0,No,Missing
+26,2.0,2.0,No,Category 2
+26,2.0,,Missing,Category 2
+26,,1.0,Yes,Missing
+26,1.0,2.0,No,Category 1
+26,1.0,1.0,Yes,Category 1
+26,1.0,,Missing,Category 1
+27,,1.0,Yes,Missing
+27,2.0,2.0,No,Category 2
+27,,,Missing,Missing
+27,,2.0,No,Missing
+27,2.0,,Missing,Category 2
+27,2.0,1.0,Yes,Category 2
+27,1.0,,Missing,Category 1
+27,1.0,1.0,Yes,Category 1
+27,1.0,2.0,No,Category 1
+28,,1.0,Yes,Missing
+28,,,Missing,Missing
+28,,2.0,No,Missing
+28,2.0,,Missing,Category 2
+28,2.0,2.0,No,Category 2
+28,2.0,1.0,Yes,Category 2
+28,1.0,,Missing,Category 1
+28,1.0,1.0,Yes,Category 1
+28,1.0,2.0,No,Category 1
+29,,2.0,No,Missing
+29,,1.0,Yes,Missing
+29,2.0,1.0,Yes,Category 2
+29,2.0,,Missing,Category 2
+29,,,Missing,Missing
+29,2.0,2.0,No,Category 2
+29,1.0,1.0,Yes,Category 1
+29,1.0,,Missing,Category 1
+29,1.0,2.0,No,Category 1
+30,,1.0,Yes,Missing
+30,2.0,,Missing,Category 2
+30,2.0,2.0,No,Category 2
+30,1.0,2.0,No,Category 1
+30,,2.0,No,Missing
+30,,,Missing,Missing
+30,2.0,1.0,Yes,Category 2
+30,1.0,,Missing,Category 1
+30,1.0,1.0,Yes,Category 1
+31,,1.0,Yes,Missing
+31,,,Missing,Missing
+31,2.0,1.0,Yes,Category 2
+31,1.0,2.0,No,Category 1
+31,1.0,1.0,Yes,Category 1
+31,,2.0,No,Missing
+31,2.0,2.0,No,Category 2
+31,2.0,,Missing,Category 2
+31,1.0,,Missing,Category 1
+32,,2.0,No,Missing
+32,2.0,,Missing,Category 2
+32,,1.0,Yes,Missing
+32,2.0,2.0,No,Category 2
+32,,,Missing,Missing
+32,2.0,1.0,Yes,Category 2
+32,1.0,,Missing,Category 1
+32,1.0,2.0,No,Category 1
+32,1.0,1.0,Yes,Category 1
+33,,1.0,Yes,Missing
+33,2.0,1.0,Yes,Category 2
+33,2.0,2.0,No,Category 2
+33,2.0,,Missing,Category 2
+33,,,Missing,Missing
+33,,2.0,No,Missing
+33,1.0,1.0,Yes,Category 1
+33,1.0,,Missing,Category 1
+33,1.0,2.0,No,Category 1
+34,2.0,1.0,Yes,Category 2
+34,2.0,,Missing,Category 2
+34,,,Missing,Missing
+34,2.0,2.0,No,Category 2
+34,,2.0,No,Missing
+34,,1.0,Yes,Missing
+34,1.0,1.0,Yes,Category 1
+34,1.0,2.0,No,Category 1
+34,1.0,,Missing,Category 1
+35,2.0,1.0,Yes,Category 2
+35,,1.0,Yes,Missing
+35,,2.0,No,Missing
+35,2.0,2.0,No,Category 2
+35,,,Missing,Missing
+35,2.0,,Missing,Category 2
+35,1.0,,Missing,Category 1
+35,1.0,1.0,Yes,Category 1
+36,2.0,,Missing,Category 2
+36,2.0,1.0,Yes,Category 2
+36,,,Missing,Missing
+36,1.0,1.0,Yes,Category 1
+36,,1.0,Yes,Missing
+36,,2.0,No,Missing
+36,2.0,2.0,No,Category 2
+36,1.0,,Missing,Category 1
+36,1.0,2.0,No,Category 1
+37,,1.0,Yes,Missing
+37,2.0,1.0,Yes,Category 2
+37,,2.0,No,Missing
+37,,,Missing,Missing
+37,2.0,,Missing,Category 2
+37,2.0,2.0,No,Category 2
+37,1.0,,Missing,Category 1
+37,1.0,1.0,Yes,Category 1
+38,2.0,1.0,Yes,Category 2
+38,2.0,,Missing,Category 2
+38,,1.0,Yes,Missing
+38,,2.0,No,Missing
+38,,,Missing,Missing
+38,2.0,2.0,No,Category 2
+38,1.0,2.0,No,Category 1
+38,1.0,1.0,Yes,Category 1
+38,1.0,,Missing,Category 1
+39,2.0,1.0,Yes,Category 2
+39,,,Missing,Missing
+39,2.0,2.0,No,Category 2
+39,,1.0,Yes,Missing
+39,2.0,,Missing,Category 2
+39,,2.0,No,Missing
+39,1.0,,Missing,Category 1
+39,1.0,2.0,No,Category 1
+39,1.0,1.0,Yes,Category 1
+40,2.0,1.0,Yes,Category 2
+40,,2.0,No,Missing
+40,,1.0,Yes,Missing
+40,,,Missing,Missing
+40,1.0,1.0,Yes,Category 1
+40,2.0,,Missing,Category 2
+40,2.0,2.0,No,Category 2
+40,1.0,,Missing,Category 1
+40,1.0,2.0,No,Category 1
+41,2.0,1.0,Yes,Category 2
+41,,1.0,Yes,Missing
+41,,,Missing,Missing
+41,2.0,,Missing,Category 2
+41,2.0,2.0,No,Category 2
+41,,2.0,No,Missing
+41,1.0,2.0,No,Category 1
+41,1.0,1.0,Yes,Category 1
+41,1.0,,Missing,Category 1
+44,,1.0,Yes,Missing
+44,2.0,1.0,Yes,Category 2
+44,,2.0,No,Missing
+44,2.0,,Missing,Category 2
+44,,,Missing,Missing
+44,2.0,2.0,No,Category 2
+44,1.0,,Missing,Category 1
+44,1.0,2.0,No,Category 1
+44,1.0,1.0,Yes,Category 1
+45,,2.0,No,Missing
+45,2.0,,Missing,Category 2
+45,2.0,1.0,Yes,Category 2
+45,,,Missing,Missing
+45,,1.0,Yes,Missing
+45,2.0,2.0,No,Category 2
+45,1.0,,Missing,Category 1
+45,1.0,1.0,Yes,Category 1
+45,1.0,2.0,No,Category 1
+46,2.0,1.0,Yes,Category 2
+46,,1.0,Yes,Missing
+46,,,Missing,Missing
+46,,2.0,No,Missing
+46,2.0,,Missing,Category 2
+46,2.0,2.0,No,Category 2
+46,1.0,,Missing,Category 1
+46,1.0,1.0,Yes,Category 1
+46,1.0,2.0,No,Category 1
+47,2.0,,Missing,Category 2
+47,,1.0,Yes,Missing
+47,,2.0,No,Missing
+47,,,Missing,Missing
+47,2.0,1.0,Yes,Category 2
+47,2.0,2.0,No,Category 2
+47,1.0,,Missing,Category 1
+47,1.0,1.0,Yes,Category 1
+47,1.0,2.0,No,Category 1
+48,,2.0,No,Missing
+48,2.0,1.0,Yes,Category 2
+48,,,Missing,Missing
+48,2.0,,Missing,Category 2
+48,,1.0,Yes,Missing
+48,2.0,2.0,No,Category 2
+48,1.0,,Missing,Category 1
+48,1.0,1.0,Yes,Category 1
+48,1.0,2.0,No,Category 1
+49,,,Missing,Missing
+49,,1.0,Yes,Missing
+49,,2.0,No,Missing
+49,2.0,,Missing,Category 2
+49,2.0,1.0,Yes,Category 2
+49,1.0,,Missing,Category 1
+49,2.0,2.0,No,Category 2
+49,1.0,1.0,Yes,Category 1
+49,1.0,2.0,No,Category 1
+50,,,Missing,Missing
+50,,1.0,Yes,Missing
+50,2.0,,Missing,Category 2
+50,2.0,1.0,Yes,Category 2
+50,2.0,2.0,No,Category 2
+50,,2.0,No,Missing
+50,1.0,,Missing,Category 1
+50,1.0,2.0,No,Category 1
+50,1.0,1.0,Yes,Category 1
+51,2.0,1.0,Yes,Category 2
+51,,,Missing,Missing
+51,,1.0,Yes,Missing
+51,,2.0,No,Missing
+51,1.0,,Missing,Category 1
+51,2.0,,Missing,Category 2
+51,2.0,2.0,No,Category 2
+51,1.0,1.0,Yes,Category 1
+51,1.0,2.0,No,Category 1
+53,,2.0,No,Missing
+53,,1.0,Yes,Missing
+53,2.0,1.0,Yes,Category 2
+53,,,Missing,Missing
+53,2.0,,Missing,Category 2
+53,2.0,2.0,No,Category 2
+53,1.0,1.0,Yes,Category 1
+53,1.0,2.0,No,Category 1
+53,1.0,,Missing,Category 1
+54,,2.0,No,Missing
+54,,,Missing,Missing
+54,,1.0,Yes,Missing
+54,2.0,2.0,No,Category 2
+54,2.0,1.0,Yes,Category 2
+54,2.0,,Missing,Category 2
+54,1.0,1.0,Yes,Category 1
+54,1.0,,Missing,Category 1
+54,1.0,2.0,No,Category 1
+55,2.0,1.0,Yes,Category 2
+55,,1.0,Yes,Missing
+55,,,Missing,Missing
+55,2.0,2.0,No,Category 2
+55,,2.0,No,Missing
+55,2.0,,Missing,Category 2
+55,1.0,,Missing,Category 1
+55,1.0,1.0,Yes,Category 1
+55,1.0,2.0,No,Category 1
+56,,,Missing,Missing
+56,2.0,1.0,Yes,Category 2
+56,2.0,2.0,No,Category 2
+56,2.0,,Missing,Category 2
+56,,2.0,No,Missing
+56,,1.0,Yes,Missing
+56,1.0,1.0,Yes,Category 1
+56,1.0,,Missing,Category 1
+56,1.0,2.0,No,Category 1
+66,2.0,,Missing,Category 2
+66,,,Missing,Missing
+66,,2.0,No,Missing
+66,2.0,1.0,Yes,Category 2
+66,,1.0,Yes,Missing
+66,2.0,2.0,No,Category 2
+66,1.0,1.0,Yes,Category 1
+66,1.0,,Missing,Category 1
+66,1.0,2.0,No,Category 1
+72,,1.0,Yes,Missing
+72,,2.0,No,Missing
+72,,,Missing,Missing
+72,2.0,,Missing,Category 2
+72,2.0,1.0,Yes,Category 2
+72,2.0,2.0,No,Category 2
+72,1.0,,Missing,Category 1
+72,1.0,2.0,No,Category 1
+78,,,Missing,Missing
+78,2.0,,Missing,Category 2
+78,,2.0,No,Missing
+78,,1.0,Yes,Missing
+78,2.0,2.0,No,Category 2
+78,2.0,1.0,Yes,Category 2
+78,1.0,1.0,Yes,Category 1
+78,1.0,2.0,No,Category 1
+78,1.0,,Missing,Category 1
