@@ -1,177 +1,203 @@
-# 📊 CDC BRFSS 2023 — Lifestyle Behaviors & Health Outcomes
-
-> A data storytelling project exploring how lifestyle behaviors relate to health risks in U.S. adults using ethical, transparent, and human-centered visual design.
-
----
+# Behavioral Risk & Health Outcomes Analysis
 
 ## Project Overview
 
-This project analyzes data from the **CDC Behavioral Risk Factor Surveillance System (BRFSS) 2023**, one of the largest health surveys in the United States.
+This project analyzes how lifestyle behaviors relate to chronic disease outcomes across U.S. states using two major public health datasets:
 
-My goal is to explore how **everyday behaviors** such as alcohol consumption—connect to **health risks and healthcare access**, while practicing **ethical data cleaning, visualization, and communication**.
+* **CDC BRFSS 2023** (Behavioral Risk Factor Surveillance System)
+* **CDC PLACES Dataset**
 
-Rather than just making charts, this project focuses on:
-- Honesty in data representation
-- Accessibility in visual design
-- Clear storytelling
-- Responsible interpretation
-- State-level comparison and deeper analytical thinking
+The goal is to determine whether behavioral risk patterns (such as alcohol use and physical inactivity) align with measurable health outcomes like obesity and diabetes.
 
 ---
 
-## Why This Project Matters
+## Problem Statement
 
-Lifestyle behaviors strongly influence long-term health outcomes, but they are often misunderstood or oversimplified.
+Lifestyle behaviors such as alcohol use, smoking, and physical inactivity are widely recognized as risk factors for chronic diseases. However, understanding how these behaviors relate to measurable health outcomes requires combining individual-level survey data with broader population-level health indicators.
 
-This project helps:
-- Reveal patterns that may not be obvious
-- Show how missing data affects interpretation
-- Highlight how design choices influence understanding
-- Encourage ethical and responsible data storytelling
-- Compare selected response patterns across states
+This project examines whether behavioral risk patterns in BRFSS align with chronic disease prevalence and related health outcomes in CDC PLACES.
 
 ---
 
+## Key Findings
 
+* Not all behaviors strongly relate to health outcomes.
+* Drinking-related behavior showed **weak or inconsistent relationships** with obesity.
+* Physical inactivity showed a **strong positive relationship** with obesity.
+* States with higher inactivity levels consistently had higher obesity rates.
+* Southern and Midwestern states showed the highest obesity prevalence.
+
+---
 
 ## Project Structure
 
-| Folder/File | Description |
-|-------------|-------------|
-| data/ | Raw dataset(s) |
-| notebook/ | Jupyter notebooks for cleaning, EDA, polished visualizations, and comparative analysis |
-| plots/ | Saved visualizations |
-| README.md | Project documentation |
-| requirements.txt | Python dependencies |
-
-
-## Key Questions Explored
-- What does alcohol-related response behavior look like across the population?  
-- How are selected risk-related responses distributed?  
-- How do missing values affect interpretation?  
-- How can charts mislead — and how can we prevent that?  
-- How do selected response patterns vary across states?  
-- Which states show the highest levels of missing health-response data?
-
----
-
-## Visualizations Included
-This project includes multiple polished and analytical visualizations, such as:
-
-1️⃣ Distribution of alcohol-related response categories  
-2️⃣ Missing data percentage by selected variable  
-3️⃣ Top states by missing pneumococcal vaccination responses  
-4️⃣ Drinking and driving response distribution by state  
-5️⃣ Pneumococcal vaccination response by state  
-6️⃣ Overall pneumococcal vaccination response summary  
-
-Each visualization includes:
-
-✔ Design justification  
-✔ Ethical considerations  
-✔ Interpretation notes  
-✔ Data cleaning explanation  
-✔ Attention to data quality and response completeness
+```
+├── data/
+│   │   └── BRFSS2023.zip
+│   │   ├── brfss_state.csv
+│   │   └── places_state_cleaned.csv
+│
+├── notebook/
+│   ├── 01A_brfss_cleaning.ipynb
+│   ├── 01B_places_cleaning.ipynb
+│   ├── 02_integrated_analysis.ipynb
+│   └── 03_sqlite_database_and_erd.ipynb
+│
+├── plots/
+├── requirements.txt
+└── README.md
+```
 
 ---
 
-## Ethics & Design Principles
+## Dataset Setup
 
-All visualizations follow these principles:
+The BRFSS dataset is large (over 400,000 rows), so it is stored as a compressed `.zip` file.
 
-- No truncated axes
-- No misleading scales
-- Colorblind-friendly palettes
-- Honest labeling
-- Transparent missing data handling
-- No decorative clutter ("chartjunk")
+### File location
 
-This project prioritizes **clarity over decoration**.
+```
+data/BRFSS2023.zip
+```
 
----
+### Extract the dataset
 
-## Data Cleaning Highlights
-The BRFSS dataset uses special numeric codes for missing or invalid responses (for example, 7, 9, 77, and 9999).
+#### Windows
 
-In this project, I:
+* Right-click → **Extract All**
+* Extract into `data/`
 
-- Converted selected columns to numeric types  
-- Replaced special codes with `NaN` where appropriate  
-- Documented missingness instead of hiding it  
-- Removed duplicates  
-- Selected focused variables for analysis  
-- Created readable category labels for selected response variables  
-- Compared selected patterns across states
+#### Mac
 
----
+* Double-click the `.zip` file
 
-## Tools Used
+#### Linux (terminal)
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+```bash
+unzip data/BRFSS2023.zip -d data/
+```
+
+### After extraction
+
+```
+data/BRFSS2023.csv
+```
 
 ---
 
-## How to Run This Project
+## Environment Setup
 
-1. Clone this repository
-2. Install dependencies:
+### Create virtual environment
+
+#### Windows (Git Bash)
+
+```bash
+python -m venv .venv
+source .venv/Scripts/activate
+```
+
+#### Mac / Linux
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
-
 ```
-3. Open Jupyter Notebook:
 
- ```bash
+### Run notebooks
 
+```bash
 jupyter notebook
-
 ```
 
+---
 
-4. Explore the notebooks inside the notebook/ folder
+## Database Design (ERD)
 
-## Why This Project Is Different
-Most beginner projects focus on flashy charts.  
-This one focuses on:
+The project uses two state-level tables:
 
-✔ Ethical thinking  
-✔ Design responsibility  
-✔ Real-world messy data  
-✔ Clear communication  
-✔ Human-centered interpretation  
-✔ State-level comparison  
-✔ Data quality awareness  
+### brfss_state
 
-This makes it closer to how data is used in real organizations.
+* StateAbbr (Primary Key)
+* drnkdrv_cat2_pct
+* pneumo_yes_pct
+
+### places_state
+
+* StateAbbr (Primary Key)
+* binge_drinking_adults
+* current_smoking_adults
+* diagnosed_diabetes_adults
+* physical_inactivity_adults
+* obesity_adults
+
+### Relationship
+
+* One-to-one relationship using `StateAbbr`
 
 ---
 
-## Current Project Expansion
-The project has grown from basic exploratory charts into a broader analysis of state-level response patterns and data quality. In addition to polished visualizations, the newer notebooks compare selected response categories across states and examine how missing data varies geographically.
+## SQL Analysis
 
-This expansion strengthens the project by moving from simple description to comparative analysis and more critical public-health interpretation.
+The project includes:
+
+* JOIN queries to combine datasets
+* Ranking queries (ORDER BY)
+* Aggregation with HAVING
+* Subqueries for comparison against averages
+
+These queries validate and strengthen the findings from the visual analysis.
 
 ---
 
-## About Me
+## Visualizations
 
-I am a data analytics student learning how to move beyond simple charts into ethical, intentional, and meaningful data storytelling.
+The project includes multiple visualization types:
 
-This project reflects not just what I analyzed but how I think.
+* Scatter plots (relationship analysis)
+* Bar charts (state comparisons)
+* Distribution plots
 
-🔗 LinkedIn: www.linkedin.com/in/aline-umutoniwase
+All visuals are labeled, styled, and used to support clear analytical conclusions.
 
+---
 
+## Tools & Technologies
 
-## Data Source
+* Python (Pandas, Matplotlib, Seaborn)
+* SQLite3
+* Jupyter Notebook
+* Lucidchart (ERD)
+* Gitbash & GitHub
 
-- CDC Behavioral Risk Factor Surveillance System (BRFSS) 2023
-- Self-reported survey data collected across the United States.
-- The raw CSV is compressed (.zip) due to GitHub’s file size limits.
+---
+
+## Data Sources
+
+* CDC BRFSS 2023
+  https://www.cdc.gov/brfss/annual_data/annual_2023.html
+
+* CDC PLACES Dataset
+  https://data.cdc.gov/500-Cities-Places/PLACES-Local-Data-for-Better-Health-County-Data-20/swc5-untb/about_data
+
+---
+
+## Notes
+
+* The BRFSS dataset is compressed due to GitHub size limits.
+* Make sure to extract it before running the notebooks.
+* Relative paths are used for cross-platform compatibility.
+
+---
+
+## Acknowledgements
+
+This project was developed as part of a data analysis capstone.
+AI tools (including ChatGPT) were used explanation support.
+
 
