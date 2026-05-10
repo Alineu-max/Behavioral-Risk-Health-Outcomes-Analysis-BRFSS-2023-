@@ -1,4 +1,17 @@
-# Behavioral Risk & Health Outcomes Analysis
+# Behavioral Risk & Health Outcomes Analysis (BRFSS 2023)
+
+> **Can lifestyle behaviors predict chronic disease rates across U.S. states?**  
+> This project combines CDC survey data (400,000+ respondents) with population-level 
+> health metrics to find out.
+
+[![Python](https://img.shields.io/badge/Python-3.10-blue)](https://python.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
+**Key finding:** Physical inactivity is a strong predictor of obesity rates across states.  
+Drinking behavior, however, showed weak and inconsistent correlations — a finding that 
+challenges common assumptions.
+
+---
 
 ## Project Overview
 
@@ -8,6 +21,18 @@ This project analyzes how lifestyle behaviors relate to chronic disease outcomes
 * **CDC PLACES Dataset**
 
 The goal is to determine whether behavioral risk patterns (such as alcohol use and physical inactivity) align with measurable health outcomes like obesity and diabetes.
+
+---
+
+## What I Built
+
+| Step | What I Did |
+|------|-----------|
+| Data Cleaning | Processed 400,000+ rows of CDC survey data across two datasets |
+| Database Design | Designed a normalized SQLite database with ERD using Lucidchart |
+| SQL Analysis | Wrote JOIN, aggregation, subquery, and ranking queries to validate findings |
+| Visualization | Created scatter plots, bar charts, and distribution plots with Matplotlib/Seaborn |
+| Data Integration | Merged individual-level BRFSS data with state-level PLACES health metrics |
 
 ---
 
@@ -199,5 +224,14 @@ All visuals are labeled, styled, and used to support clear analytical conclusion
 
 This project was developed as part of a data analysis capstone.
 AI tools (including ChatGPT) were used explanation support.
+
+---
+
+## Author
+
+**Alineu Max**  
+Master of Analytics & Applied AI Student  
+📧 [alinumutoniw@gmail.com]  
+🔗 [https://www.linkedin.com/in/aline-umutoniwase/]
 
 
